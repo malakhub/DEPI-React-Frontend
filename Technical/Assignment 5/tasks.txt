@@ -1,0 +1,77 @@
+CSS LAYOUT & POSITIONING ASSIGNMENT
+====================================
+
+OVERVIEW:
+Create a webpage with a header, main content area, and sidebar using HTML and CSS.
+Apply positioning, box model properties, and proper selectors to build a clean layout.
+
+REQUIREMENTS:
+
+PART 1: HTML Structure (Create your own HTML file)
+------
+Create an HTML file with:
+  - A header section with a title/navigation
+  - A main container that holds your content
+  - At least 3 different div elements with content
+  - A sidebar on the right side
+
+Make sure to use meaningful class names (not just "div1", "div2", etc.)
+
+
+PART 2: CSS Styling
+-----
+
+1. SELECTORS & BOX MODEL:
+   - Use universal selector to reset margins and padding to 0
+   - Set box-sizing to border-box
+   - Style your body with a background color and font-family
+
+2. CONTAINER LAYOUT:
+   - Create a main container with a max-width (like 1200px)
+   - Add margin auto to center it
+   - Apply padding to create breathing room
+   - Add a border or background color to make it visible
+
+3. POSITIONING:
+   - Position your sidebar using absolute or relative positioning
+   - Use top/right/left/bottom properties to place elements
+   - Make sure the sidebar doesn't overlap your main content awkwardly
+   - (Bonus: Try using fixed positioning for a sticky header)
+
+4. STYLING ELEMENTS:
+   - Give each section a different background color
+   - Add borders around at least 2 elements
+   - Use border-radius on at least one element
+   - Apply padding and margins consistently
+   - Style text with different font-weights or font-styles
+
+5. Z-INDEX:
+   - Use z-index to control layering if you have overlapping elements
+   - Make sure nothing gets hidden unintentionally
+
+
+PART 3: Testing & Refinement
+-----
+- Open your HTML in a browser
+- Check that layout looks clean on your screen
+- Verify all positioning works as intended
+- Make sure text is readable and spacing looks good
+- Adjust colors or sizes if something doesn't look right
+
+
+TIPS:
+- Start with basic structure first, then add styling
+- Keep your CSS organized by grouping related rules
+- Don't overthink it - a simple, clean layout is better than complex
+- Refer to the example files (positions.css and style.css) if you need a reminder
+- Test frequently in the browser as you build
+
+
+SUBMISSION:
+- Include your HTML file
+- Include your CSS file
+- Make sure everything runs without errors
+- Optional: Take a screenshot of how it looks
+
+
+
