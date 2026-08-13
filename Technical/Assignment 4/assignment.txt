@@ -1,0 +1,96 @@
+ASSIGNMENT 1 - CSS BASICS (Selectors, Specificity, Colors, Units, Box Model)
+
+Based on Session 1. Build a simple "Course Card" page using the starter
+files in this folder (index.html, style.css). Do not use any other
+pages/files.
+
+SETUP
+-----
+- Use index.html as your structure - you may add elements inside it, but
+  keep the existing header, nav, section, and footer tags.
+- Write ALL CSS in style.css. The stylesheet is already linked in
+  index.html.
+- NO inline style="..." attributes and NO <style> block in the HTML -
+  every rule must live in style.css. (We talked about why inline styles
+  should be avoided.)
+
+PART A - SELECTORS (required)
+------------------------------
+In style.css, include at least one example of each:
+
+1. A type selector (e.g. p { ... })
+2. A class selector (e.g. .card { ... })
+3. An id selector (e.g. #main-title { ... })
+4. A grouped selector styling two or more elements at once (e.g. h2, h3 { ... })
+5. A descendant or child combinator (e.g. section p { ... } or nav > ul { ... })
+6. An attribute selector on the links in your nav, using one of:
+   - [href]
+   - [href^="https"]
+   - [href$=".html"]
+
+PART B - SPECIFICITY (required, written answer)
+-------------------------------------------------
+At the bottom of style.css, add a comment block answering this:
+
+  /*
+  Given these two rules, which one wins and why? (order in specificity: type < class < id)
+
+  p.intro {
+    color: red;
+  }
+
+  #intro-text {
+    color: blue;
+  }
+
+  Your answer:
+  */
+
+Then create the actual conflict in your HTML/CSS (an element that matches
+both a class and an id rule with different colors) and confirm in the
+browser that your written answer was correct.
+
+PART C - COLORS (required)
+----------------------------
+Use three different color formats somewhere in your stylesheet:
+
+1. A named color (e.g. red, dodgerblue)
+2. A hex color (e.g. #1f5a8c)
+3. An rgba() color with transparency below 1 (e.g. rgba(0, 0, 0, 0.4)) -
+   use this one for a background so you can see the transparency effect.
+
+PART D - UNITS (required)
+----------------------------
+Use at least one absolute unit and at least three different relative
+units:
+
+- Absolute: px (or pt)
+- Relative: pick from %, vh, vw
+
+Label which is which with a short comment next to each rule.
+
+PART E - BOX MODEL (required)
+--------------------------------
+Style at least one .card element (a div inside your section) with:
+
+- border
+- padding
+- background-color
+- a fixed width that is less than 100% of its parent
+- centered horizontally using margin-left: auto; margin-right: auto;
+
+BONUS (optional)
+-----------------
+- Make the header full viewport width using vw/100% and give it a
+  height in vh.
+- Add a second .card with different colors/sizes and make sure your
+  selectors from Part A still apply correctly to both.
+
+SUBMISSION CHECKLIST
+----------------------
+[ ] No inline styles, no <style> block - everything in style.css
+[ ] One type, one class, one id, one grouped, one combinator, one attribute selector
+[ ] Specificity question answered + demonstrated in the page
+[ ] Named color, hex color, and rgba() color all used
+[ ] One absolute unit + three relative units used, each labeled with a comment
+[ ] At least one .card styled with border, padding, background-color, fixed width, and centered with margin auto

@@ -1,0 +1,87 @@
+.container {
+   background-color:#f9dbbd;
+   
+}
+
+header {
+   width: 100vw; /* Relative */
+   height: 20vh;/* Relative */
+}
+#main-title {
+   color: #1f5a8c;
+   padding-left: 40%; /* Relative */
+}
+
+nav  {
+   color: rgb(51, 95, 65);
+}
+
+[href] {
+   color: rgb(51, 95, 65);
+   text-decoration: none;
+}
+
+
+
+p,h2 {
+   color: rgb(40, 4, 81);
+}
+
+h3 {
+   color: #a53860;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.card {
+   background-color: #ffa5ab;
+   width: 60vw;   /* Relative */
+   border: 2px solid black; /*Absolute */
+   margin-left: auto;
+   margin-right: auto;
+   padding: 50px;   /*Absolute */
+}
+.card#second_card {
+   background-color: #da627d;
+}
+#second_card h2{
+   font-size: 35px;/*Absolute */
+   color: #1f5a8c
+}
+#second_card h3{
+   font-size: 20px;/*Absolute */
+   color: #a53860;
+}
+#second_card p{
+   font-size: 25px;/*Absolute */
+   color: #450920;
+   font-style: italic;
+
+}
+#my_card h2{
+   color: black;
+   
+}
+p.university {
+   color: #cbeef3;
+}
+
+
+footer p {
+   color: #450920;
+   font-size: 20px; /*Absolute */
+   padding-left: 40%;/* Relative */
+}
+
+
+
+p.intro {
+  color: red;
+}
+
+#intro-text {
+  color: blue;
+}
+
+/* Your answer: the id (#intro-text) will win Because it wins in priority  */
+
